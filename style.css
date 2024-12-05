@@ -1,6 +1,11 @@
 * {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 header{   
     background-color: #1f2937; 
@@ -13,18 +18,35 @@ header{
 }
 footer {   
     background-color: #1f2937; 
-    color: white;
+    color: #E5E7EB;
     display: flex; 
     justify-content: center; 
     padding: 20px;
 }
 
 a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
 .navlinks{
     display: flex;
     gap: 20px;
+}
+
+#about{
+    background-color: #1f2937; 
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between; 
+    padding: 80px;
+    gap: 20px;
+}
+img {
+    text-align: center;
+}
+
+.heroheader {
+    font-size: 48px;
+    font-weight: 900;
 }
