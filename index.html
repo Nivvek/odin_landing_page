@@ -7,53 +7,72 @@
     <title>Home</title>
 </head>
 <body>
+
+
     <header>
       <h1>Header Logo</h1>
         <nav>
-          <div>
-            <div class="navlinks">
-            <div><a href="#about">About</a></div> 
-            <div><a href="#info">Information</a></div> 
-            <div><a href="#signup">Sign Up</a></div> 
-          </div>
-          </div> 
+          
+            <span class="navlinks">
+            <span><a href="#about">About</a></span> 
+            <span><a href="#info">Information</a></span> 
+            <span><a href="#signup">Sign Up</a></span> 
+          </span>
+          
         </nav>
       </header>
+
+
       <main>
         <section id="about">
           <div>
-          <h2 class="heroheader">This website is awesome</h2>
+          <h2 class="aboutheader">This website is awesome</h2>
           <p>Ths website has some subtext that goes here under the main title.
             It's smaler font and the color is lower contrast</p>
             <button>Sign up</button>
           </div>
-          <div style="width: 300px; height: 300px; background-color: grey;">
+          <div style="width: 500px; height: 300px; background-color: grey;">
             <img alt="this is a placeholder for an image">
           </div>
+
+          
         </section>
         <section id="info">
-          <h2>Some random information</h2>
-          <ul>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-            <li>this is some subtext under an illustration or image</li>
-          </ul>
+          <div><h1 class="infoheader">Some random information</h1></div>
+          <div class="infocontainer">
+            <div class="infoimg"> <img alt="placeholder" width="150" height="150"> <p>this is some subtext under an illustration or image</p> </div>
+            <div class="infoimg"> <img alt="placeholder" width="150" height="150"> <p>this is some subtext under an illustration or image</p> </div>
+            <div class="infoimg"> <img alt="placeholder" width="150" height="150"> <p>this is some subtext under an illustration or image</p> </div>
+            <div class="infoimg"> <img alt="placeholder" width="150" height="150"> <p>this is some subtext under an illustration or image</p> </div>
+          </div>
         </section>
-        <section>
-            <p>This is an inspiring quote, or a testimonial from a customer. 
+
+
+        <section id="quote">
+          <div>
+            <p class="quotetext"> This is an inspiring quote, or a testimonial from a customer. 
                 Maybe it's just filling up space or maybe peaple will actually read it. 
-                Who knows? All I know is that it looks nice. </p>
+                Who knows? All I know is that it looks nice.
+            </p> 
+            <p class="quoteauthor">&mdash;Thor, God of Thunder</p>
+          </div>  
         </section>
+
+
         <section id="signup">
-            <h3>Call to action! It's time!</h2>
-            <h6>Sign up for our product by clicking that button right over there!</h6>
-            <button>Sign up</button>
+          <div class=" signup-container">
+            <p style="font-weight: 900; color: #f9faf8; margin-bottom:0;">Call to action! It's time!</p>
+            <p style="display: inline-block; color: #e5e7eb; margin: 0; padding-top:0;">Sign up for our product by clicking that button right over there!</p>
+            <button class="signupbutton">Sign up</button>
+          </div>
         </section>
       </main>
+
   
       <footer>
         <p>Copyright &copy; The Odin Project 2021</p>
       </footer>
+      
+
 </body>
 </html>
